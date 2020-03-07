@@ -5,28 +5,6 @@ import random
 import pygame
 
 class Game:
-    def __init__(self):
-        """
-        Initialize everything
-        """ 
-
-        os.environ['SDL_VIDEO_WINDOW_POS'] = "800, 300" # Window Position on Start
-
-        # Initialize Pygame display
-        pygame.init()
-        pygame.display.set_caption('Game Of Life')
-        self.size = WIDTH, HEIGHT = 640, 480
-        self.BLACK = 0, 0, 0 # DEAD CELL COLOR
-        self.ORANGE = 255, 165, 0 # ALIVE CELL COLOR
-        self.screen = pygame.display.set_mode(self.size)
-
-        # Initialize Grid
-        self.col = WIDTH // 10
-        self.row = HEIGHT // 10
-        self.random_grid()
-
-        self.max_fps = 10
-
     def random_grid(self):
         """
         Initialize a random grid
