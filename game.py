@@ -4,6 +4,13 @@ import copy
 import pygame
 
 class Game:
+
+    """ 
+    TODO:
+    - Add Comments
+    - Add Main Menu
+    """
+
     def __init__(self):
         """
         Initialize everything
