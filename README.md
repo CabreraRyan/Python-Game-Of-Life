@@ -1,4 +1,4 @@
-#Python Game Of Life
+# Python Game Of Life
 
 Made by: Ryan Kenneth Cabrera
 Using: Python, Pygame
